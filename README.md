@@ -5,7 +5,7 @@
 Implementation of a shallow one layer neural network trained on the 
 Iris flower dataset. The implementation uses stochastic gradient descent
 with mini-batches and momentum to minimize the softmax cross-entropy 
-loss with L2 wight decay regularization. After training, 
+loss with L2 weight decay regularization. After training, 
 the linear decision boundaries are plotted.
 
 ## Regression
