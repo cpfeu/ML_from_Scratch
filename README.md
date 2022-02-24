@@ -15,4 +15,10 @@ Poisson Regression with the Million Song Dataset (MSD). Stochastic
 gradient descent as well as the closed form solutions are 
 implemented. 
 
+## Naive Bayes
+
+Implementation of a naive bayes classifier that uses the Gaussian or Bernoulli
+distribution to calculate class conditionals. This implementation was trained
+on the *NLP with disasters Tweet* dataset from Kaggle for which the Bernoulli distribution should be used.
+
 
