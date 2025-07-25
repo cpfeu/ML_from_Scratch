@@ -20,5 +20,3 @@ implemented.
 Implementation of a naive bayes classifier that uses the Gaussian or Bernoulli
 distribution to calculate class conditionals. This implementation was trained
 on the *NLP with disasters Tweet* dataset from Kaggle for which the Bernoulli distribution should be used.
-
-# Test Comment
