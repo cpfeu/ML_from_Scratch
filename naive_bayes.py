@@ -178,7 +178,7 @@ class NaiveBayes:
         posteriors = []
         for idx, k in enumerate(self._classes):
             prior = np.log(self._priors[idx])  # p(y)
-            class_conditional = self._pdf(x, k)  # log(p(x_1|y)) + log(p(x_d|y)) with d features
+            class_conditional = self._pdf(x, k)  # log(p(x_1|y)) + ... +  log(p(x_d|y)) with d features
             posterior = prior + class_conditional
             posteriors.append(posterior)
 
